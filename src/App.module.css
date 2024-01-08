@@ -1,0 +1,15 @@
+.App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.homeCnt {
+    width: 30%;
+    text-align: -webkit-center;
+    border-radius: 1rem;
+    padding: 1%;
+    padding-top: 2%;
+    background-color: #f7f6e4;
+    box-shadow: rgb(114 128 143 / 35%) 0px 0px 3px 1px inset;
+}

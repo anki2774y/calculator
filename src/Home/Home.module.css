@@ -1,0 +1,77 @@
+.homeCnt {
+    width: 100%;
+}
+
+.consoleCnt {
+    width: 100%;
+    border-radius: 0.75rem;
+    height: auto;
+    min-height: 75px;
+    text-align-last: right;
+    box-shadow: rgb(210 211 210) 0px 1px 0px 0px, rgb(255 255 255 / 30%) 1px 1px 1px 1px, rgb(0 0 0 / 20%) 0px 1px 2px 0px inset;
+    margin-bottom: 2%;
+}
+
+.consoleCnt div {
+    word-wrap: break-word;
+}
+
+.consoleCnt .result {
+    padding: 5px 10px 5px;
+    text-align: right;
+    color: #979797;
+}
+
+.consoleCnt .input {
+    padding: 10px;
+}
+
+hr {
+    padding: 0;
+    margin: 0 5px;
+    border: 1px solid #e0dede;
+}
+
+span, .lftbtn, .rgtbtn {
+    width: 23.5%;
+    border-radius: 0.5rem;
+    display: inline-block;
+    height: 2rem;
+    margin: 1%;
+    cursor: pointer;
+    box-shadow: rgb(210 211 210) 0px 1px 0px 0px, rgb(255 255 255 / 30%) 1px 1px 1px 1px, rgb(0 0 0 / 20%) 0px 1px 2px 0px inset;
+}
+
+.lftbtn {
+    margin-left: 0;
+}
+
+.rgtbtn {
+    margin-right: 0;
+}
+
+.zeroBtn {
+    margin-left: 0;
+    width: 49%;
+}
+
+.decBtn {
+    width: 23.5%;
+}
+
+.eqlBtn {
+    width: 23.5%;
+    margin-right: 0;
+}
+
+span {
+    line-height: 2rem;
+}
+
+span:hover {
+    box-shadow: rgb(210 211 210) 2px 1px 2px 1px, rgb(255 255 255 / 30%) 1px 1px 1px 1px, rgb(0 0 0 / 20%) 0px 1px 2px 0px inset;
+}
+
+span:active {
+    background-color: #e9e5a1;
+}
