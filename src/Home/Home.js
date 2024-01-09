@@ -32,13 +32,14 @@ function Home() {
     const evaluateInput = () => {
         try {
           // Use regex to split the input string into an array of numbers and operators
-          const parts = input.match(/[+\-x÷^]|\d+/g);
+          const parts = input.match(/[+\-x÷%^]|\d+/g);
           if (!parts) return;
+
+          console.log("Parts ",  " ", parts);
           // Initialize result with the first number
           let tempResult = parseFloat(parts[0]);
-    
           // Iterate over the remaining parts and perform addition/subtraction
-          for (let i = 1; i < parts.length; i += 2) {
+          for (let i = 1; i < parts.length; i += 1) {
             const operator = parts[i];
             const nextNumber = parseFloat(parts[i + 1]);
     
@@ -53,6 +54,12 @@ function Home() {
             } else if (operator === '^') {
                 for(let i=1; i < nextNumber; i++) {
                     tempResult *= tempResult
+                }
+            } else if (operator === '%') {
+                if(!nextNumber) {                    
+                    tempResult = tempResult/100;
+                } else {
+                    tempResult = (tempResult * nextNumber) / 100;  
                 }
             }
           }    
