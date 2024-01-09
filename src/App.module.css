@@ -10,6 +10,23 @@
     border-radius: 1rem;
     padding: 1%;
     padding-top: 2%;
-    background-color: #f7f6e4;
+    background-color: #f7d3d3;
     box-shadow: rgb(114 128 143 / 35%) 0px 0px 3px 1px inset;
+}
+
+.appName {
+    font-family: cursive;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.appName:hover {
+    background-color: rgb(243, 175, 116);
+    border-radius: 20px;
+    color: rgb(3, 36, 249);
+}
+
+.appName h3 {
+    margin: 0;
+    padding: 10px;
 }
