@@ -4,15 +4,7 @@
     flex-direction: column;
 }
 
-.homeCnt {
-    width: 30%;
-    text-align: -webkit-center;
-    border-radius: 1rem;
-    padding: 1%;
-    padding-top: 2%;
-    background-color: #f7d3d3;
-    box-shadow: rgb(114 128 143 / 35%) 0px 0px 3px 1px inset;
-}
+
 
 .appName {
     font-family: cursive;
@@ -29,4 +21,28 @@
 .appName h3 {
     margin: 0;
     padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .homeCnt {
+        width: 70%;
+        text-align: -webkit-center;
+        border-radius: 1rem;
+        padding: 1%;
+        padding-top: 2%;
+        background-color: #f7d3d3;
+        box-shadow: rgb(114 128 143 / 35%) 0px 0px 3px 1px inset;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .homeCnt {
+        width: 30%;
+        text-align: -webkit-center;
+        border-radius: 1rem;
+        padding: 1%;
+        padding-top: 2%;
+        background-color: #f7d3d3;
+        box-shadow: rgb(114 128 143 / 35%) 0px 0px 3px 1px inset;
+    }
 }
