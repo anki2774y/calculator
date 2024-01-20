@@ -5,9 +5,6 @@ function App() {
   return (
     <>
       <div className={styles.App}>
-        <div className={styles.appName}>
-          <h3> Calculator App </h3>
-        </div>
         <div className={styles.homeCnt}>
           <Home />
         </div>

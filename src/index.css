@@ -9,6 +9,9 @@ body {
   background: -webkit-linear-gradient(to left, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
+
+  background: rgb(0,13,37);
+  background: linear-gradient(45deg, rgba(0,13,37,1) 8%, rgba(0,79,59,1) 59%, rgba(0,255,250,1) 100%, rgb(0, 195, 254) 70%);
   background-repeat: no-repeat;
   height: 100vh;
 }
